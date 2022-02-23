@@ -6,9 +6,9 @@ The program can convert both HOS-Ocean and HOSNWT results.
 The program is developed in Windows with Intel Visual Fortran Compiler 19.1.1. It is recommended to use Microsoft Visual Studio 2017.
 
 <I>
-<br>The HOS UDW2P Converter program was contributed by <br>
+<br>The HOS UDW2P Converter program was contributed by: <br>
 Dr Haihua Xu, Mr Yun Zhi Law and Dr Harrif Santo under the guidance of Prof Allan Magee. <br>
-This research is supported by A∗STAR Science and Engineering Research Council with grant number 172 19 00089 under the Marine & Offshore Strategic Research Programme (M&O SRP). <br></I>
+and supported by A∗STAR Science and Engineering Research Council with grant number 172 19 00089 under the Marine & Offshore Strategic Research Programme (M&O SRP). <br><br></I>
 
 <b>References</b><br>
 	Ducrozet, G., Bonnefoy, F., Le Touzé, D., and Ferrant, P.: A modified High-Order Spectral method for wavemaker modeling in a numerical wave tank, European Journal of Mechanics - B/Fluids, 34, 19-34, 2012; doi:10.1016/j.euromechflu.2012.01.017. here <br><br>
