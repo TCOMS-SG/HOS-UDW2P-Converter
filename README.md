@@ -3,7 +3,7 @@
 TCOMS data converter program. It converts the HOS results to UDW2P file format. The converted UDW2P file can be used as input file of MrNWB (developed by TechnipFMC) to carry out the potential flow and CFD coupling. 
 The program can convert both HOS-Ocean and HOSNWT results.
 
-The program is developed in windows with Intel Visual Fortran Compiler 19.1.1. It is recommended to use Microsoft Visual Studio 2017.
+The program is developed in Windows with Intel Visual Fortran Compiler 19.1.1. It is recommended to use Microsoft Visual Studio 2017.
 
 <I> @author Xu Haihua, Technology Centre for Offshore and Marine, Singapore (TCOMS) <br>
  @date 17 Feb 2022
