@@ -1,0 +1,41 @@
+------ UDW2P Grid info-------------------------
+Minimum x in UDW2P grid      :: xmin             :: 0.0
+Maximum x in UDW2P grid      :: xmax             :: 40.0
+Number of grid in x-axis     :: nx               :: 1024
+Number of grid in z-axis     :: nz               :: 20
+Start time of data converter :: tStart           :: 20.0
+End time of data converter   :: tEnd             :: 199.0
+--- Input files --------------------------------
+Type of HOS Data             :: iHOS             :: 2
+Name of modal description    :: fileName         :: modes_HOS_SWENSE.dat
+----OpenMP Cores--------------------------------
+Numer of cores used          :: iOMPCores        :: 4
+Debug Mode                   :: iDebug           :: 1
+
+!---NOTE Date 2020-06-06 :
+For HOS-NWT the parameters xmin, xmax and nx will not work 
+	xmin =0.0
+	xmin =xlen
+	nx = n1
+	 
+
+
+--- Velocities/pressure cards
+Minimum x in VP-card         :: x_min            :: 24.0
+Maximum x in VP-card         :: x_max            :: 36.0
+Minimum y in VP-card         :: y_min            :: 0.0
+Maximum y in VP-card         :: y_max            :: 0.1
+Minimum z in VP-card         :: z_min            :: -1.0
+Maximum z in VP-card         :: z_max            ::  0.2
+Maximum z in VP-card         :: i_xvect          :: 500
+Maximum z in VP-card         :: i_yvect          :: 1
+Number of points in z        :: i_zvect          :: 80
+--- Input files
+Type of HOS Data             :: iHOS          :: 11
+Name of free-surface file    :: file_3d          :: Results/3d.dat
+Name of modal description    :: fileName         :: Results/modes_HOS_SWENSE.dat
+---- Test Unit and modes to compute
+Vertical profile test        :: i_Test           :: 0
+Modes for post-processing    :: imode            :: 1
+Numer of components used     :: ncomp            :: 128
+Numer of components used     :: ncores           :: 6

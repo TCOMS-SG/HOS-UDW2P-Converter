@@ -1,0 +1,21 @@
+Date 21-02-2022
+	1. Update the code's developers list
+Date 17-07-2020
+	1. fixed the bug in for recSize length computation in funciton UDW2p_setUp
+		recSize = ( Nx * 2 + Np * 2 )
+	2. Only use the first 7/8 of the modes to re-construct the velocity 
+
+Date 02-Jun-2020
+	1. Add  HOS-NWT Support. The HOS-NWT support has the following limitations
+		1. The domain need the same as HOS-NWT
+		2. The number of nx grid need the same as HOS-NWT
+		The limitation is due to the computation of velocity at the free has problem when 
+			wave propgate to the viscous zone.The velocity is not correct.
+
+
+Date 29-May-2020
+	1. change the software to HOS in the description file.
+	2. normalzied the UDW2P data by water depth (h) and gravity (g)
+		length : normalzied by water depth h
+		time   : normalzied by sqrt(h/g)
+		velocity: normalzied by sqrt(h*g)

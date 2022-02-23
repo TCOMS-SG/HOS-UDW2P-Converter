@@ -1,0 +1,19 @@
+------ UDW2P Grid info-------------------------
+Minimum x in UDW2P grid      :: xmin             :: 0.0
+Maximum x in UDW2P grid      :: xmax             :: 40.0
+Number of grid in x-axis     :: nx               :: 2048
+Number of grid in z-axis     :: nz               :: 20
+Start time of data converter :: tStart           :: 20.0
+End time of data converter   :: tEnd             :: 1200.0
+--- Input files --------------------------------
+Type of HOS Data             :: iHOS             :: 2
+Name of modal description    :: fileName         :: modes_HOS_SWENSE.dat
+----OpenMP Cores--------------------------------
+Numer of cores used          :: iOMPCores        :: 4
+Debug Mode                   :: iDebug           :: 1
+
+!---NOTE Date 2020-06-06 :
+For HOS-NWT the parameters xmin, xmax and nx will not work 
+	xmin =0.0
+	xmax =xlen
+	nx = n1
