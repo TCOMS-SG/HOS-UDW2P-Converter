@@ -5,9 +5,7 @@ The program can convert both HOS-Ocean and HOSNWT results.
 
 The program is developed in Windows with Intel Visual Fortran Compiler 19.1.1. It is recommended to use Microsoft Visual Studio 2017.
 
-<I> @author Xu Haihua, Technology Centre for Offshore and Marine, Singapore (TCOMS) <br>
- @date 17 Feb 2022
-<br>
+<I>
 <br>The HOS UDW2P Converter program was contributed by <br>
 Dr Haihua Xu, Mr Yun Zhi Law and Dr Harrif Santo under the guidance of Prof Allan Magee. <br>
 This research is supported by A∗STAR Science and Engineering Research Council with grant number 172 19 00089 under the Marine & Offshore Strategic Research Programme (M&O SRP). <br></I>
