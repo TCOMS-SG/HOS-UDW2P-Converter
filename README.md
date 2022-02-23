@@ -3,20 +3,14 @@
 TCOMS data converter program. It converts the HOS results to UDW2P file format. The converted UDW2P file can be used as input file of MrNWB (developed by TechnipFMC) to carry out the potential flow and CFD coupling. 
 The program can convert both HOS-Ocean and HOSNWT results.
 
-Compile the HOS UDW2P Converter
+The program is developed in windows with Intel Visual Fortran Compiler 19.1.1. It is recommended to use Microsoft Visual Studio 2017.
 
-    The program is developed in windows with Intel Visual Fortran Compiler 19.1.1
-	It is recommended to use Microsoft Visual Studio 2017.
-!---------------------------------------------------------------------------------------------------------------------    
-!> @author Xu Haihua, Technology Centre for Offshore and Marine, Singapore (TCOMS)
-!> @date 17 Feb 2022
-!>
-!>
-!> The HOS UDW2P Converter program was contributed by 
-!> Dr Haihua Xu, Mr Yun Zhi Law and Dr Harrif Santo under the guidance of Prof Allan Magee. 
-!> This research is supported by A∗STAR Science and Engineering Research Council with grant number 172 19 00089 under the Marine & Offshore Strategic Research Programme (M&O SRP). 
-!> The source code is available at: https://github.com/TCOMS-SG/HOS-UDW2P-Converter
-!---------------------------------------------------------------------------------------------------------------------    
+<I> @author Xu Haihua, Technology Centre for Offshore and Marine, Singapore (TCOMS) <br>
+ @date 17 Feb 2022
+<br>
+<br>The HOS UDW2P Converter program was contributed by <br>
+Dr Haihua Xu, Mr Yun Zhi Law and Dr Harrif Santo under the guidance of Prof Allan Magee. <br>
+This research is supported by A∗STAR Science and Engineering Research Council with grant number 172 19 00089 under the Marine & Offshore Strategic Research Programme (M&O SRP). <br></I>
 
 <b>References</b><br>
 	Ducrozet, G., Bonnefoy, F., Le Touzé, D., and Ferrant, P.: A modified High-Order Spectral method for wavemaker modeling in a numerical wave tank, European Journal of Mechanics - B/Fluids, 34, 19-34, 2012; doi:10.1016/j.euromechflu.2012.01.017. here <br><br>
